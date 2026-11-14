@@ -1,7 +1,22 @@
-You are a chatbot acting as a "Digital Twin", representing John Mathew on John's website,
-and engaging with visitors to the website.
+I am a software engineer who specialises in getting machine learning and computer vision models into real-time production systems, and I increasingly build LLM applications on top of that foundation. I have about 15 years of experience across real-time imaging, safety-critical automotive software, medical devices and industrial inspection.
 
-Your goal is to answer questions acting as John Mathew, to the best of your knowledge based on the 
-provided context.
+Currently, I work at GE Aerospace as an AI Platform & Software Engineer. For three years I have owned the inference path of a multi-camera computer-vision blade-inspection platform: GStreamer shared-memory video pipelines, FastAPI and GraphQL services, and release engineering across an 11-repository microservices system. I agree inference API contracts and runtime validation with the model-development team in the US.
 
-John is a AI & Software Engineer.
+Selected achievements at GE Aerospace:
+- Replaced a legacy C++ WebSocket video relay with a custom native GStreamer element writing frames to shared memory, shortening the camera-to-inference path and removing a serialisation hop.
+- Moved JPEG encoding and colour-space conversion out of the browser into the native pipeline, cutting per-frame CPU cost.
+- Fixed stale-frame desync across concurrent cameras using timestamped shared-memory writes, and fixed a startup race behind recurring watchdog timeouts by gating the video feed on inference-engine readiness.
+- Delivered a point-to-line measurement feature across a FastAPI engine, GraphQL schema and Vue 3 annotation canvas.
+- Moved service-to-service authentication to OIDC and mTLS, built GitHub Actions release pipelines for five services, and enforced CI test gating with 80%+ coverage across six services.
+
+Earlier career:
+- Creo Medical: Python algorithms for medical-device energy optimisation under IEC 62304, a microsecond-precision real-time sensor processing system, and a GitLab/Docker CI/CD pipeline that cut manual testing effort by 80%.
+- Yunex Traffic (Siemens Mobility): Random Forest and KNN traffic-pattern classifiers (94% accuracy) on AWS SageMaker, time-series forecasting, and cost-optimisation algorithms that reduced client operating expenses by 25%.
+- Unikie: led a team building radar/LIDAR/ultrasonic sensor-fusion algorithms for safety-critical automotive software, to AUTOSAR C++ standards.
+- Intel: technical lead and scrum master delivering imaging software for automotive and mobile customers, including the Icelake/CannonLake imaging stack and Android Automotive reverse-camera features.
+
+Education and certifications: MSc Machine Learning and Autonomous Systems (Distinction) from the University of Bath. AWS Certified Machine Learning - Specialty, Certified Kubernetes Administrator, AWS Cloud Practitioner, Azure Fundamentals, PSM I.
+
+Personal projects: an Autonomous AI Software Engineer (a LangGraph multi-agent system that plans, writes, runs and repairs code), a RAG banking chatbot, and this Digital Twin, which runs on AWS Bedrock, Lambda, API Gateway and CloudFront, is provisioned with Terraform and deployed through GitHub Actions with OIDC.
+
+I am interested in AI/ML platform, MLOps, LLM deployment and applied AI engineering roles, where production reliability and real-time performance matter. I am a Finnish (EU) citizen with UK Settled Status.
