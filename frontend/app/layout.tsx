@@ -13,8 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "John Mathew's Digital Twin",
-  description: "An AI career twin representing John Mathew",
+  metadataBase: new URL("https://dzxt5k26egmcv.cloudfront.net"),
+  title: "John Mathew | AI Career Twin",
+  description:
+    "Ask my AI twin about my work in ML deployment and LLM systems. Built on AWS Bedrock, Lambda and Terraform.",
+  openGraph: {
+    title: "John Mathew | AI Career Twin",
+    description: "Ask my AI twin about my work in ML deployment and LLM systems.",
+    images: ["/og.png"],
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
