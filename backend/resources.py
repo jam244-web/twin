@@ -21,3 +21,7 @@ with open("./data/style.txt", "r", encoding="utf-8") as f:
 
 with open("./data/facts.json", "r", encoding="utf-8") as f:
     facts = json.load(f)
+
+# resources.py (add at the bottom)
+with open("./data/work_highlights.md", "r", encoding="utf-8") as f:
+    work = f.read()

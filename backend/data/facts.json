@@ -30,16 +30,39 @@
     "PSM I"
   ],
   "career": [
-    {"employer": "GE Aerospace", "role": "AI Platform & Software Engineer", "period": "Aug 2023 - present"},
-    {"employer": "Creo Medical, Bath", "role": "Senior Software Engineer", "period": "Mar 2022 - Jul 2023"},
-    {"employer": "Yunex Traffic (formerly Siemens Mobility)", "role": "Machine Learning Engineer", "period": "Sep 2021 - Feb 2022"},
-    {"employer": "Unikie, Finland", "role": "Senior Software Engineer, Autonomous Systems", "period": "Jul 2019 - Sep 2020"},
-    {"employer": "Intel, Finland", "role": "Technical Lead & Scrum Master", "period": "Jul 2011 - Jun 2019"}
+    {
+      "employer": "GE Aerospace",
+      "role": "AI Platform & Software Engineer",
+      "period": "Aug 2023 - present"
+    },
+    {
+      "employer": "Creo Medical, Bath",
+      "role": "Senior Software Engineer",
+      "period": "Mar 2022 - Jul 2023"
+    },
+    {
+      "employer": "Yunex Traffic (formerly Siemens Mobility)",
+      "role": "Machine Learning Engineer",
+      "period": "Sep 2021 - Feb 2022"
+    },
+    {
+      "employer": "Unikie, Finland",
+      "role": "Senior Software Engineer, Autonomous Systems",
+      "period": "Jul 2019 - Sep 2020"
+    },
+    {
+      "employer": "Intel, Finland",
+      "role": "Technical Lead & Scrum Master",
+      "period": "Jul 2011 - Jun 2019"
+    }
   ],
   "projects": [
-    "Autonomous AI Software Engineer: multi-agent platform (Planner, Coder, Reviewer, Executor, Execution Reviewer) on LangGraph, with MCP for filesystem operations and a self-repair loop",
-    "RAG Banking Chatbot: ChromaDB + OpenAI API retrieval-augmented chatbot, 91% intent-classification accuracy",
+    "Autonomous AI Software Engineer (github.com/jam244-web/ai-software-engineer): multi-agent platform (Planner, Coder, Reviewer, Executor, Execution Reviewer) on LangGraph, with MCP for filesystem operations and a self-repair loop",
+    "Neobank chatbot (github.com/jam244-web/neobank-chatbot): retrieval-augmented banking chatbot using ChromaDB and the OpenAI API, 91% intent-classification accuracy",
+    "Vericar (github.com/jam244-web/vericar): open-world vehicle recognition using metric learning, PyTorch implementation, 72% accuracy",
     "This Digital Twin: LLM chat assistant on AWS Bedrock, Lambda, API Gateway, S3 and CloudFront, provisioned with Terraform and deployed by GitHub Actions using OIDC"
   ],
-  "open_to": "AI/ML platform, MLOps, LLM deployment and applied AI engineering roles"
+  "open_to": "AI/ML platform, MLOps, LLM deployment and applied AI engineering roles",
+  "github": "github.com/jam244-web",
+  "github_older_projects": "github.com/jam244 (older machine learning and imaging coursework and experiments)"
 }

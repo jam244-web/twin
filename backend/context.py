@@ -1,4 +1,4 @@
-from resources import linkedin, summary, facts, style
+from resources import linkedin, summary, facts, style, work
 from datetime import datetime
 
 
@@ -32,6 +32,9 @@ Here are some notes from {name} about their communications style:
 
 For reference, here is the current date and time:
 {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+
+Here are detailed notes on {name}'s engineering work:
+{work}
 
 ## Your task
 
